@@ -1,16 +1,66 @@
 body{
   margin: 0px;
   }
-#logo{
-  height: 20px;
-  padding: 0px;
-  margin: 0px;
-  margin-left: 20px;
-}
 #About{
-  height: 120vh;
-  background: #372674;
+  height:100%;
+
 }
+#mobile_nav{
+  padding-top:20px;
+}
+  .hamburger{
+    right:0px;
+    text-align: right;
+
+    position: absolute;
+    font-size:40px;
+    color: white;
+  }
+
+  .chapterlogo{
+    text-align: left;
+
+    left:0px;
+    position: absolute;
+    margin-bottom: 40px;
+    margin-right: 20px;
+
+  }
+  #logo{
+    height:90px;
+    width:190px;
+  }
+  .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      background-color: #111;
+      overflow-x: hidden;
+      padding-top: 60px;
+      top:0px;
+      z-index: 1;
+      text-align:center;
+  }
+  .sidenav a {
+      padding: 8px 8px 8px 8px;
+      text-decoration: none;
+      font-size: 40px;
+      margin-top:20px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+  }
+  .sidenav a:hover {
+      color: #f1f1f1;
+  }
+  .sidenav .closebtn {
+      position: absolute;
+      top: 0px;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+  }
+
 #head{
 color: #60C9EC;
 font-size: 50px;
