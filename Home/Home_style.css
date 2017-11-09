@@ -12,6 +12,16 @@ height: 100%;
   width:100%;
   color: white;
 }
+#link1{
+  color: white;
+}
+.hamburger{
+  right:0px;
+  text-align: right;
+  top:0px;
+  font-size:40px;
+  color: white;
+}
 .border_up{
   border-top-style: solid;
   border-top-color: white;
@@ -19,17 +29,32 @@ height: 100%;
   margin-top:10px;
 }
 .content_1{
-  text-align: center;
+  text-align: right;
   font-size: 35px;
+  padding-right: 15px;
 }
 
 .content_2{
+  display:inline-block;
   font-size:15px;
   margin-top: 10px;
-  padding-left: 10px;
+
   border-bottom-style:solid;
   border-bottom-width:2px;
   border-bottom-color: white;
+}
+.ticker {
+  overflow: hidden;
+  height:75px;
+  padding-left: 0px;
+}
+.ticker a:hover,
+.ticker li:hover {
+  color: #D8D8D8;
+}
+.ticker a,
+.ticker li {
+  list-style: none;
 }
 .icons{
   bottom:0%;
@@ -70,15 +95,44 @@ margin:20px;
 }
 @media only screen and (max-width: 1025px){
   .content_1{
-    text-align: center;
+    text-align: right;
     font-size: 28px;
   }
-
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    top:10px;
+    z-index: 1;
+    text-align:center;
+}
+.sidenav a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 40px;
+    margin-top:20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
 }
 
 @media only screen and (max-width: 769px){
   .content_1{
-    text-align: center;
+    text-align: right;
     font-size: 20px;
   }
 
@@ -101,22 +155,33 @@ margin:20px;
     height:60px;
     width:120px;
   }
-
+  .ticker {
+    overflow: hidden;
+    height:50px;
+  }
 }
 @media only screen and (max-width: 426px){
   .content_1{
-    text-align: center;
+    text-align: right;
     font-size: 11px;
   }
 
   .content_2{
-    font-size:10px;
+    font-size:9px;
     margin-top: 0px;
     padding-left: 0px;
+    text-align: left;
     border-bottom-style:solid;
     border-bottom-width:2px;
     border-bottom-color: white;
   }
-
-
+  #break{
+    display:none;
+  }
+}
+@media only screen and (max-width: 376px)
+{
+  .ticker{
+    height:65px;
+  }
 }
