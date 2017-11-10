@@ -1,0 +1,169 @@
+#mainbody{
+  width: 100%;
+}
+#mobile_nav{
+top:20px;
+height:12vh;
+}
+  .hamburger{
+    right:0px;
+    text-align: right;
+    position: absolute;
+    font-size:50px;
+    color: #d32054;
+  }
+#color1{
+    background-color: #291e40;
+}
+  .chapterlogo{
+    text-align: left;
+    left:0px;
+    height:inherit;
+    position: absolute;
+  }
+  #logo{
+    height:90px;
+    width:190px;
+  }
+  .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      background-color: #111;
+      overflow-x: hidden;
+      padding-top: 60px;
+      top:0px;
+      z-index: 1;
+      text-align:center;
+  }
+  .sidenav a {
+      padding: 8px 8px 8px 8px;
+      text-decoration: none;
+      font-size: 40px;
+      margin-top:20px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+  }
+  .sidenav a:hover {
+      color: #f1f1f1;
+  }
+  .sidenav .closebtn {
+      position: absolute;
+      top: 0px;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+  }
+
+.Projects{
+  height:83vh;
+}
+.content1{
+  text-align: center;
+  height:inherit;
+  color:#fee6b4;
+}
+.texts{
+margin-top: 150px;
+
+}
+#heading{
+  font-size: 25px;
+  color: white;
+}
+  #project{
+font-size: 15px;
+  }
+  #content{
+font-size: 10px;
+  }
+  .button{
+    padding-right:10px;
+    font-size: 40px;
+    color: white;
+  }
+  .screenshot{
+    text-align: center;
+    height:inherit;
+    padding-top: 50px;
+  }
+
+  #ss{
+    height:400px;
+    width:650px;
+  }
+  #link{
+    height:20px;
+    width: 15px;
+  }
+.contact_us{
+  color:#fee6b4;
+  padding:9px;
+  height: inherit;
+}
+
+#footer{
+  bottom:0px;
+  color:#fee6b4;
+  height:5vh;
+}
+.icons{
+  background: black;
+text-align: right;
+height: inherit;
+}
+#icon1{
+  height:20px;
+  width: 15px;
+  margin:10px;
+}
+#icon2{
+  height: 20px;
+  width: 20px;
+    margin:10px;
+}
+#icon3{
+height:20px;
+width: 15px;
+  margin:10px;
+}
+@media only screen and (max-width:1000px){
+#mobile_nav{
+  background-color: #291e40;
+
+}
+  #logo{
+    height:60px;
+    width:120px;
+  }
+  .hamburger{
+    color: white;
+  }
+  .Projects{
+    height: 30vh;
+  }
+  .texts{
+  margin-top: 0px;
+
+  }
+  #ss{
+    height:300px;
+    width:450px;
+  }
+#footer{
+  display: none;
+}
+}
+@media only screen and (max-width:500px){
+  #ss{
+    height:200px;
+    width:350px;
+  }
+}
+@media only screen and (max-width:370px){
+  #ss{
+    height:150px;
+    width:250px;
+  }
+}
