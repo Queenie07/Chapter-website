@@ -62,20 +62,38 @@ body{
     }
 
 #head{
-color: #381C32;
+color: #60C9EC;
 font-size: 35px;
 font-weight: bold;
 }
 
 #TeamText{
-  margin-left: 150px;
+  margin-left: 180px;
   text-align: justify;
   padding-top:25vh;
   color:white;
   font-size:20px;
   width: 80%;
 }
-
+@media(max-width:1024px){
+  #TeamText{
+    margin-left: 70px;
+    text-align: justify;
+    padding-top:25vh;
+    width:80%;
+    color:white;
+    font-size:18px;
+    float: left;
+  }
+  #head{
+    font-size: 20px;
+  }
+  #Team_row{
+    padding-top: 10px;
+    float: left;
+    padding-left: 120px;
+  }
+}
 @media(max-width:769px){
   #TeamText{
     margin-left: 70px;
