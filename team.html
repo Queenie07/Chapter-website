@@ -11,12 +11,30 @@
 	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="smoothscroll.js"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
 	<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/layout.css">
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+	<script>function openNav() {
+			document.getElementById("mySidenav").style.width = "100%";
+	};
+
+	function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+	};
+	</script>
+ </head>
+	<body style="background-color:#372674";>
+ <div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<a href="#">About Us</a>
+<a href="#">Our Team</a>
+<a href="#">Projects</a>
+<a href="#">Contact Us</a>
+</div>
+<div>
 	<script type="text/javascript">
 	$(function () {
 		var filterList = {
@@ -37,10 +55,13 @@
 	</script>
 </head>
 <body>
-
-
 	<div id="Team">
-		<div id="logo"><img src="image/logo.gif"></img></div>
+		<div class="row" id="mobile_nav">
+			<div class="col-sm-4 col-xs-4 chapterlogo"><img id="logo" src="image/logo.png"></a></div>
+			<div class="col-sm-4 col-xs-4 hamburger">
+				<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+			</div>
+			</div>
 			<div id="TeamText"><br><p id="head">OUR TEAM</p><br>
 				<p>Our members are dedicated tech enthusiasts who bring energy, ideas and pride to their work.
 					<br>We work hard, but we don't take ourselves too seriously. We enjoy what we do and that's what keeps us going.
