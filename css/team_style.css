@@ -21,6 +21,11 @@ body{
   .carousel-indicators li  {
      visibility: hidden;
    }
+   .carousel-caption{
+     top: 70%;
+     width: 100%;
+     text-align: left;
+   }
 
 #mobile_nav{
     top:20px;
