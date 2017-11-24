@@ -86,9 +86,6 @@ body {
     line-height: 50px;
   }
 
-
-
-
 #teamlist .team {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -199,7 +196,7 @@ body {
     width:100%;
   }
   #filters li {
-    width:200px;
+    width:70%;
     height:40px;
   }
   #filters li a{

@@ -5,6 +5,8 @@ body{
     height: 100%;
     background: #381C32;
   }
+
+
   .carousel{
       background: #2f4357;
       margin-top: 20px;
@@ -97,7 +99,7 @@ font-weight: bold;
   font-size:20px;
   width: 80%;
 }
-@media(max-width:1024px){
+@media only screen and (max-width:1024px){
   #TeamText{
     margin-left: 70px;
     text-align: justify;
@@ -115,8 +117,9 @@ font-weight: bold;
     float: left;
     padding-left: 120px;
   }
+
 }
-@media(max-width:769px){
+@media only screen and (max-width:769px){
   #TeamText{
     margin-left: 70px;
     text-align: justify;
@@ -134,8 +137,9 @@ font-weight: bold;
     float: left;
     padding-left: 120px;
   }
+
 }
-@media(max-width:550px){
+@media only screen and (max-width:550px){
   #TeamText{
       margin-left: 50px;
       text-align: justify;
@@ -150,11 +154,11 @@ font-weight: bold;
     }
   }
 
-@media(max-width:450px){
+@media only screen and (max-width:450px){
   #TeamText{
-    margin-left: 20px;
+
     text-align: justify;
-    padding-top:20vh;
+    top:20vh;
     width:80%;
     color:white;
     font-size:12px;

@@ -3,12 +3,13 @@ body{
   }
 #About{
   height:100%;
-
 }
+
 #mobile_nav{
 top:20px;
 }
-  .hamburger{
+
+.hamburger{
     right:0px;
     text-align: right;
 
@@ -17,20 +18,19 @@ top:20px;
     color: white;
   }
 
-  .chapterlogo{
+.chapterlogo{
     text-align: left;
-
     left:0px;
     position: absolute;
     margin-bottom: 40px;
     margin-right: 20px;
 
   }
-  #logo{
+#logo{
     height:90px;
     width:190px;
   }
-  .sidenav {
+.sidenav {
       height: 100%;
       width: 0;
       position: fixed;
@@ -41,7 +41,7 @@ top:20px;
       z-index: 1;
       text-align:center;
   }
-  .sidenav a {
+.sidenav a {
       padding: 8px 8px 8px 8px;
       text-decoration: none;
       font-size: 40px;
@@ -50,10 +50,10 @@ top:20px;
       display: block;
       transition: 0.3s;
   }
-  .sidenav a:hover {
+.sidenav a:hover {
       color: #f1f1f1;
   }
-  .sidenav .closebtn {
+.sidenav .closebtn {
       position: absolute;
       top: 0px;
       right: 25px;
@@ -73,6 +73,7 @@ font-weight: bold;
   width:80%;
   color:white;
   font-size:20px;
+  font-family: "Roboto";
 }
 #downi
 {
@@ -93,11 +94,8 @@ font-size: 30px;
 color: #60C9EC;
 font-size: 25px;
 font-weight: bold;
-margin-bottom: 0px;
 }
 #AboutText2{
-  margin-top: 0px;
-  padding-top: 0px;
   text-align: justify;
   color:white;
   font-size:18px;
