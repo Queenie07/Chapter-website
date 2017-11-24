@@ -3,11 +3,9 @@ html {
 }
 
 body {
-	font-family: Helvetica, Arial, Verdana;
 	background:: #381C32;
 	font-size:12px;
 }
-
 
 .container {
 	position: relative;
@@ -23,7 +21,6 @@ body {
 }
 
 #filters {
-	margin:1%;
 	padding:0;
 	list-style:none;
 }
@@ -33,9 +30,9 @@ body {
   background: linear-gradient(to top, transparent, white);
 }
 
-	#filters li {
+#filters li {
 		float:left;
-    width:250px;
+    width:280px;
     height:50px;
     border:2px solid white;
     border-radius: 10px;
@@ -45,16 +42,16 @@ body {
     position:relative;
     box-sizing:border-box;
     overflow:hidden;
-    margin:0 0 40px 50px;
+    margin:0 0 40px 40px;
 	}
 
-	#filters li span {
+#filters li span {
 		display: block;
 		padding:5px 20px;
 		text-decoration:none;
 		cursor: pointer;
     font-family:arial;
-    font-size:16px;
+    font-size:18px;
     color:white;
     text-decoration:none;
     transition:all .5s ease;
@@ -63,12 +60,11 @@ body {
     line-height: 50px;
 	}
 
-	#filters li span.active {
+#filters li span.active {
 		background: #60C9EC;
 		color:#381C32;
     border:2px solid #381C32;
     border-radius: 10px;
-
 	}
 
   #filters li a {
@@ -132,7 +128,7 @@ body {
 		.team .label-text {
 			color:black;
 			position: relative;
-			z-index:500;
+			z-index:200;
 
 		}
 
@@ -179,43 +175,54 @@ body {
   }
 }
 @media(max-width:769px){
+  #filters li a:active {
+  		background: #60C9EC;
+  		color:#381C32;
+      border:2px solid #381C32;
+      border-radius: 10px;
+  	}
   #filters li {
-    width:130px;
-    height:50px;
+    width:150px;
+    height:40px;
 
   }
   #filters li a{
     line-height: 15px;
-    font-size: 10px;
+    font-size: 13px;
   }
 }
 
-}
 @media(max-width:425px){
+  #pbr{
+    display: none;
+  }
   .container{
-    width:100%;
+    width:90%;
   }
   #filters li {
-    width:70%;
+    width:230px;
     height:40px;
   }
   #filters li a{
-    line-height: 50px;
-    font-size: 12px;
+    line-height: 30px;
+    font-size: 14px;
   }
 }
 
 @media(max-width:375px){
+  #pbr{
+    display: none;
+  }
   .container{
     width:100%;
   }
   #filters li {
-    width:200px;
+    width:220px;
     height:40px;
 
   }
   #filters li a{
-    line-height: 50px;
-    font-size: 12px;
+    line-height: 30px;
+    font-size: 13px;
   }
 }

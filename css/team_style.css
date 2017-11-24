@@ -92,25 +92,24 @@ font-weight: bold;
 }
 
 #TeamText{
-  margin-left: 180px;
   text-align: justify;
   padding-top:25vh;
   color:white;
-  font-size:20px;
-  width: 80%;
+  font-size:22px;
+  width: 100%;
+  font-family: "Roboto";
 }
 @media only screen and (max-width:1024px){
   #TeamText{
-    margin-left: 70px;
     text-align: justify;
     padding-top:25vh;
-    width:80%;
+    width:100%;
     color:white;
-    font-size:18px;
+    font-size:21px;
     float: left;
   }
   #head{
-    font-size: 20px;
+    font-size: 26px;
   }
   #Team_row{
     padding-top: 10px;
@@ -121,16 +120,15 @@ font-weight: bold;
 }
 @media only screen and (max-width:769px){
   #TeamText{
-    margin-left: 70px;
     text-align: justify;
     padding-top:25vh;
-    width:80%;
+    width:100%;
     color:white;
-    font-size:15px;
+    font-size:17px;
     float: left;
   }
   #head{
-    font-size: 20px;
+    font-size: 21px;
   }
   #Team_row{
     padding-top: 10px;
@@ -139,29 +137,14 @@ font-weight: bold;
   }
 
 }
-@media only screen and (max-width:550px){
-  #TeamText{
-      margin-left: 50px;
-      text-align: justify;
-      padding-top:20vh;
-      width:80%;
-      color:white;
-      font-size:12px;
-      padding-bottom: 20vh;
-    }
-    #head{
-      font-size: 5px;
-    }
-  }
 
-@media only screen and (max-width:450px){
+@media only screen and (max-width:425px){
   #TeamText{
-
     text-align: justify;
     top:20vh;
-    width:80%;
+    width:100%;
     color:white;
-    font-size:12px;
+    font-size:15px;
     padding-bottom: 5vh;
 
   }
