@@ -1,5 +1,12 @@
+body{
+    font-family: 'Montserrat';
+}
+#heading{
+  font-family: 'Raleway';
+}
 #mainbody{
   width: 100%;
+
 }
 #mobile_nav{
 top:20px;
@@ -9,7 +16,9 @@ height:12vh;
     right:0px;
     text-align: right;
     position: absolute;
-    font-size:50px;
+    margin-top: -65px;
+    font-size:100px;
+    font-weight: bolder;
     color: #d32054;
   }
 #color1{
@@ -22,8 +31,9 @@ height:12vh;
     position: absolute;
   }
   #logo{
-    height:90px;
-    width:190px;
+    margin-top: 5px;
+    height:70px;
+    width:160px;
   }
   .sidenav {
       height: 100%;
@@ -76,7 +86,7 @@ margin-top: 150px;
 font-size: 15px;
   }
   #content{
-font-size: 10px;
+font-size: 12px;
   }
   .button{
     padding-right:10px;
@@ -108,30 +118,44 @@ font-size: 10px;
   color:#fee6b4;
   height:5vh;
 }
+#footer:hover{
+  color:#fee6b4;
+
+}
 .icons{
-  background: black;
+  background: white;
 text-align: right;
 height: inherit;
 }
 #icon1{
-  height:20px;
+  height:25px;
   width: 15px;
   margin:10px;
 }
 #icon2{
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
     margin:10px;
 }
 #icon3{
-height:20px;
-width: 15px;
-  margin:10px;
+height:25px;
+width: 20px;
+  margin:8px;
+
+}
+@media only screen and (max-width:1440px){
+  .Projects{
+    margin-top: -2px;
+  }
+
 }
 @media only screen and (max-width:1000px){
 #mobile_nav{
   background-color: #291e40;
 
+}
+#content{
+  display: none;
 }
   #logo{
     height:60px;
@@ -161,9 +185,25 @@ width: 15px;
     width:350px;
   }
 }
+@media only screen and (max-width:425px)
+{
+  .content1{
+    margin-top: -2px;
+  }
+}
 @media only screen and (max-width:370px){
   #ss{
     height:150px;
     width:250px;
+  }
+}
+@media only screen and (max-width:320px){
+  #logo{
+    height:50px;
+    width:110px;
+  }
+  #heading{
+    font-size: 18px;
+  }
   }
 }

@@ -1,7 +1,13 @@
+body{
+    font-family: 'Montserrat';
+    background-size: cover;
+}
+#heading{
+  font-family: 'Raleway';
+}
 #mainbody{
 width:100%;
 height: 100%;
-
 }
 #mobile_nav{
   display: none;
