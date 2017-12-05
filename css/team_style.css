@@ -3,13 +3,16 @@ body{
   }
   #Team{
     height: 100%;
-    background: #381C32;
-  }
 
+  }
+.container{
+  margin-top: 35px;
+}
 
   .carousel{
       background: #2f4357;
       margin-top: 20px;
+
   }
   .carousel .item{
       min-height: 250px; /* Prevent carousel from being distorted if for some reason image doesn't load */
@@ -84,25 +87,52 @@ body{
         font-size: 36px;
         margin-left: 50px;
     }
+    #footer{
+    padding:50px;
+    }
+  .icons{
+  text-align: right;
+  height: inherit;
+
+  }
+  #icon1{
+    height:25px;
+    width: 15px;
+    margin:10px;
+  }
+  #icon2{
+    height: 25px;
+    width: 25px;
+    margin:10px;
+  }
+  #icon3{
+    height:25px;
+    width: 20px;
+    margin:8px;
+  }
 
 #head{
 color: #60C9EC;
 font-size: 35px;
 font-weight: bold;
+font-family: "Raleway";
 }
 
 #TeamText{
   text-align: justify;
-  padding-top:25vh;
+  padding-top:15vh;
   color:white;
   font-size:22px;
   width: 100%;
-  font-family: "Roboto";
+  font-family: "Montserrat";
 }
 @media only screen and (max-width:1024px){
+  #footer{
+    display: none;
+  }
   #TeamText{
     text-align: justify;
-    padding-top:25vh;
+    padding-top:15vh;
     width:100%;
     color:white;
     font-size:21px;
@@ -119,9 +149,12 @@ font-weight: bold;
 
 }
 @media only screen and (max-width:769px){
+  #footer{
+    display: none;
+  }
   #TeamText{
     text-align: justify;
-    padding-top:25vh;
+    padding-top:15vh;
     width:100%;
     color:white;
     font-size:17px;
@@ -139,13 +172,16 @@ font-weight: bold;
 }
 
 @media only screen and (max-width:425px){
+  #footer{
+    display: none;
+  }
   #TeamText{
     text-align: justify;
-    top:20vh;
+    padding-top:15vh;
     width:100%;
     color:white;
     font-size:15px;
-    padding-bottom: 5vh;
+    padding-bottom: 10px;
 
   }
   #head{

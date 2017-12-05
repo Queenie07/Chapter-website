@@ -17,10 +17,11 @@ body {
 }
 
 .icon{
-  padding: 10px;
+  padding: 0px;
 }
 
 #filters {
+  margin-top: 0px;
 	padding:0;
 	list-style:none;
 }
@@ -36,13 +37,13 @@ body {
     height:50px;
     border:2px solid white;
     border-radius: 10px;
-    float:left;
     text-align:center;
     cursor:pointer;
     position:relative;
     box-sizing:border-box;
     overflow:hidden;
     margin:0 0 40px 40px;
+    font-family: "Montserrat";
 	}
 
 #filters li span {
@@ -61,7 +62,7 @@ body {
 	}
 
 #filters li span.active {
-		background: #60C9EC;
+		background: linear-gradient(to top, transparent, white);
 		color:#381C32;
     border:2px solid #381C32;
     border-radius: 10px;
@@ -96,7 +97,6 @@ body {
 	.team-wrapper {
 		overflow:hidden;
 		position: relative;
-		cursor:pointer;
 	}
 
 	.team img {
@@ -176,7 +176,7 @@ body {
 }
 @media(max-width:769px){
   #filters li a:active {
-  		background: #60C9EC;
+  		background: linear-gradient(to top, transparent, white);
   		color:#381C32;
       border:2px solid #381C32;
       border-radius: 10px;
@@ -200,8 +200,9 @@ body {
     width:90%;
   }
   #filters li {
-    width:230px;
+    width:250px;
     height:40px;
+    margin-bottom: 10px;
   }
   #filters li a{
     line-height: 30px;
@@ -217,9 +218,9 @@ body {
     width:100%;
   }
   #filters li {
-    width:220px;
-    height:40px;
-
+    width:230px;
+    height:35px;
+    margin-bottom: 10px;
   }
   #filters li a{
     line-height: 30px;
