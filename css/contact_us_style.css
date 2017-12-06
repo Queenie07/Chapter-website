@@ -1,0 +1,229 @@
+body{
+  margin: 0px;
+  width:100%;
+
+  }
+#Contact{
+  height:100%;
+}
+
+#mobile_nav{
+top:20px;
+}
+
+.hamburger{
+    right:0px;
+    text-align: right;
+    position: absolute;
+    font-size:40px;
+    color: white;
+  }
+
+.chapterlogo{
+    text-align: left;
+    left:0px;
+    position: absolute;
+    margin-bottom: 40px;
+    margin-right: 20px;
+
+  }
+#logo{
+    height:90px;
+    width:190px;
+  }
+  .ccs a{
+    color: white;
+  }
+  .ccs a:hover{
+    color:white;
+  }
+.sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      background-color: #111;
+      overflow-x: hidden;
+      padding-top: 60px;
+      top:0px;
+      z-index: 1;
+      text-align:center;
+  }
+.sidenav a {
+      padding: 8px 8px 8px 8px;
+      text-decoration: none;
+      font-size: 40px;
+      margin-top:20px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+  }
+.sidenav a:hover {
+      color: #f1f1f1;
+  }
+.sidenav .closebtn {
+      position: absolute;
+      top: 0px;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+  }
+  #footer{
+    height:5vh;
+  }
+.icons{
+text-align: center;
+height: inherit;
+
+}
+#icon1{
+  height:25px;
+  width: 15px;
+  margin:10px;
+}
+#icon2{
+  height: 25px;
+  width: 25px;
+  margin:10px;
+}
+#icon3{
+  height:25px;
+  width: 20px;
+  margin:8px;
+}
+
+#head{
+color: #60C9EC;
+font-size: 40px;
+font-weight: bold;
+font-family: "Raleway";
+padding-bottom: 20px;
+}
+#ContactText{
+  margin-left: 90px;
+  text-align: justify;
+  padding-top:28vh;
+  width:80%;
+  color:white;
+  font-size:20px;
+  font-family: "Montserrat";
+
+}
+
+#subhead{
+color: #60C9EC;
+font-size: 25px;
+font-weight: bold;
+}
+#ContactText2{
+  text-align: justify;
+  color:white;
+  font-size:18px;
+}
+#about_row{
+  margin: 0px;
+  padding: 20px;
+  margin-left: 30px;
+}
+#about_column{
+  display: inline-block;
+  padding-left:60px;
+  padding-bottom: 20px;
+
+}
+
+
+  #ContactText{
+    margin-left: 70px;
+    height:80vh;
+    text-align: justify;
+    padding-top:25vh;
+    width:80%;
+    color:white;
+    font-size:15px;
+  }
+  #head{
+    font-size: 20px;
+  }
+  #subhead{
+  color: #60C9EC;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  }
+  #ContactText2{
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align: justify;
+    color:white;
+    font-size:12px;
+  }
+  #about_column{
+    padding-left: 20px;
+  }
+
+
+
+}
+@media(max-width:550px){
+
+
+  #ContactText{
+      margin-left: 50px;
+      height:80vh;
+      text-align: justify;
+      padding-top:20vh;
+      width:80%;
+      color:white;
+      font-size:12px;
+    }
+    #subhead{
+    color: #60C9EC;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    }
+    #ContactText2{
+      margin-top: 0px;
+      padding-top: 0px;
+      text-align: justify;
+      color:white;
+      font-size:10px;
+    }
+    #about_column{
+      padding-left: 20px;
+    }
+
+
+  }
+
+@media(max-width:450px){
+  #ContactText{
+    margin-left: 30px;
+    height:80vh;
+    text-align: justify;
+    padding-top:100px;
+    width:80%;
+    color:white;
+    font-size:12px;
+  }
+  #head{
+  font-size: 20px;
+  font-weight: bold;
+  }
+  #subhead{
+  color: #60C9EC;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  }
+  #ContactText2{
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align: justify;
+    color:white;
+    font-size:10px;
+  }
+#about_column{
+  padding-left: 20px;
+}
+}
