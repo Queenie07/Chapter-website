@@ -105,17 +105,9 @@ font-family: "Raleway";
   color:white;
   font-size:20px;
   font-family: "Montserrat";
-  text-align: left;
 }
 
 #down-arrow
-{
-padding-top: 30px;
-text-align: center;
-color: white;
-font-size: 30px;
-}
-#up-arrow
 {
 padding-top: 30px;
 text-align: center;
@@ -126,18 +118,13 @@ font-size: 30px;
 {
 height: 20px;
 }
-#up-arrow img
-{
-height: 20px;
-}
 #subhead{
 color: #60C9EC;
 font-size: 25px;
 font-weight: bold;
-margin-top: 15px;
 }
 #AboutText2{
-  text-align:left;
+  text-align: justify;
   color:white;
   font-size:18px;
 }
@@ -153,16 +140,6 @@ margin-top: 15px;
 
 }
 @media(max-width:1024px){
-  #down-arrow
-  {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-#up-arrow
-{
-padding-top: 60px;
-padding-bottom: 30px;
-}
   #footer{
     display: none;
   }
@@ -202,11 +179,6 @@ padding-bottom: 30px;
     padding-left: 20px;
   }
   #down-arrow img
-  {
-  height: 15px;
-  margin-bottom: 50px;
-  }
-  #up-arrow img
   {
   height: 15px;
   margin-bottom: 50px;
@@ -274,7 +246,6 @@ padding-bottom: 30px;
   }
   #AboutText2{
     margin-top: 0px;
-    margin-bottom: 0px;
     padding-top: 0px;
     text-align: justify;
     color:white;
@@ -290,16 +261,5 @@ padding-bottom: 30px;
   margin-bottom: 12px;
   margin-left: 5px;
 }
-#up-arrow img
-{
-  margin-top:40px;
-  height: 10px;
-  margin-bottom: 12px;
-  margin-left:5px;
-}
-}
-@media(max-width:320px){
-  #AboutText2{
-    height:8vh;
-  }
+
 }
