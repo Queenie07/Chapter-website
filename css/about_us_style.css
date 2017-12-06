@@ -92,7 +92,7 @@ height: inherit;
 }
 
 #head{
-color: #60C9EC;
+color: #d32054;
 font-size: 40px;
 font-weight: bold;
 font-family: "Raleway";
@@ -131,11 +131,13 @@ height: 20px;
 height: 20px;
 }
 #subhead{
-color: #60C9EC;
+color:#d32054;
 font-size: 25px;
 font-weight: bold;
 margin-top: 15px;
 }
+#subhead a{
+color:#d32054;}
 #AboutText2{
   text-align:left;
   color:white;
@@ -185,7 +187,7 @@ padding-bottom: 10px;
     font-size: 20px;
   }
   #subhead{
-  color: #60C9EC;
+  color: #d32054;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 0px;
@@ -228,7 +230,7 @@ padding-bottom: 10px;
       font-size:12px;
     }
     #subhead{
-    color: #60C9EC;
+
     font-size: 15px;
     font-weight: bold;
     margin-bottom: 0px;
@@ -266,7 +268,7 @@ padding-bottom: 10px;
   font-weight: bold;
   }
   #subhead{
-  color: #60C9EC;
+
   font-size: 15px;
   font-weight: bold;
   margin-bottom: 0px;

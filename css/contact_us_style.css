@@ -1,11 +1,11 @@
 body{
   margin: 0px;
-  width:100%;
-background-size: cover;
+
   }
 #Contact{
   height:100%;
 }
+
 
 #mobile_nav{
 top:20px;
@@ -30,12 +30,6 @@ top:20px;
 #logo{
     height:90px;
     width:190px;
-  }
-  .ccs a{
-    color: white;
-  }
-  .ccs a:hover{
-    color:white;
   }
 .sidenav {
       height: 100%;
@@ -67,9 +61,7 @@ top:20px;
       font-size: 36px;
       margin-left: 50px;
   }
-  #footer{
-    height:5vh;
-  }
+
 .icons{
 text-align: center;
 height: inherit;
@@ -96,7 +88,6 @@ color: #60C9EC;
 font-size: 40px;
 font-weight: bold;
 font-family: "Raleway";
-padding-bottom: 20px;
 }
 #ContactText{
   margin-left: 90px;
@@ -106,31 +97,77 @@ padding-bottom: 20px;
   color:white;
   font-size:20px;
   font-family: "Montserrat";
-
+  text-align: left;
 }
 
+#down-arrow
+{
+padding-top: 30px;
+text-align: center;
+color: white;
+font-size: 30px;
+}
+#up-arrow
+{
+padding-top: 30px;
+text-align: center;
+color: white;
+font-size: 30px;
+}
+#down-arrow img
+{
+height: 20px;
+}
+#up-arrow img
+{
+height: 20px;
+}
 #subhead{
-color: #60C9EC;
+color:#60C9EC;
 font-size: 25px;
 font-weight: bold;
+margin-top: 15px;
 }
+#subhead a{
+color:#60C9EC;}
 #ContactText2{
-  text-align: justify;
+  text-align:left;
   color:white;
   font-size:18px;
 }
-#about_row{
+#Contact_row{
   margin: 0px;
   padding: 20px;
   margin-left: 30px;
 }
-#about_column{
+#Contact_column{
   display: inline-block;
   padding-left:60px;
   padding-bottom: 20px;
 
 }
+.ccs a{
+  color: white;
+}
+.ccs a:hover{
+  color: white;
+}
+@media(max-width:1024px){
 
+  #down-arrow
+  {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+#up-arrow
+{
+padding-top: 60px;
+padding-bottom: 10px;
+}
+
+}
+@media(max-width:769px){
 
   #ContactText{
     margin-left: 70px;
@@ -157,15 +194,23 @@ font-weight: bold;
     color:white;
     font-size:12px;
   }
-  #about_column{
+  #Contact_column{
     padding-left: 20px;
   }
-
+  #down-arrow img
+  {
+  height: 15px;
+  margin-bottom: 50px;
+  }
+  #up-arrow img
+  {
+  height: 15px;
+  margin-bottom: 50px;
+  }
 
 
 }
 @media(max-width:550px){
-
 
   #ContactText{
       margin-left: 50px;
@@ -177,7 +222,7 @@ font-weight: bold;
       font-size:12px;
     }
     #subhead{
-    color: #60C9EC;
+
     font-size: 15px;
     font-weight: bold;
     margin-bottom: 0px;
@@ -189,7 +234,7 @@ font-weight: bold;
       color:white;
       font-size:10px;
     }
-    #about_column{
+    #Contact_column{
       padding-left: 20px;
     }
 
@@ -197,6 +242,7 @@ font-weight: bold;
   }
 
 @media(max-width:450px){
+
   #ContactText{
     margin-left: 30px;
     height:80vh;
@@ -211,19 +257,39 @@ font-weight: bold;
   font-weight: bold;
   }
   #subhead{
-  color: #60C9EC;
+
   font-size: 15px;
   font-weight: bold;
   margin-bottom: 0px;
   }
   #ContactText2{
     margin-top: 0px;
+    margin-bottom: 0px;
     padding-top: 0px;
     text-align: justify;
     color:white;
     font-size:10px;
   }
-#about_column{
+#Contact_column{
   padding-left: 20px;
 }
+#down-arrow img
+{
+  margin-top:40px;
+  height: 10px;
+  margin-bottom: 12px;
+  margin-left: 5px;
+}
+#up-arrow img
+{
+  margin-top:40px;
+  height: 10px;
+  margin-bottom: 12px;
+  margin-left:5px;
+}
+}
+@media(max-width:320px){
+  #ContactText2{
+    height:8vh;
+  }
 }
